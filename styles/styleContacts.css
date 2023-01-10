@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  flex-grow: 1;
+}
+
+header {
+  min-height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 64px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-top: -60px;
+}
+
+header img {
+  border: 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.4081px;
+  line-height: 21px;
+  color: #191819;
+}
+
+.menu a:hover {
+  color: #2acc32;
+  background-image: url(/img/eclipse2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 6px;
+}
+
+.menu a:active {
+  color: rgba(63, 65, 63, 0.5019607843);
+}
+
+nav li {
+  padding-right: 28px;
+  box-sizing: border-box;
+}
+
+.button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.1295px;
+  line-height: 20px;
+  color: #191819;
+  box-sizing: border-box;
+  padding: 11px 29px;
+  border: 1.18px solid #8ac653;
+  border-radius: 24.7034px;
+  margin-top: -13px;
+  margin-left: 15px;
+}
+
+.button:hover {
+  background-color: #2acc32;
+  border: 1.18px solid #2acc32;
+  transition: 400ms;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:active {
+  box-shadow: 1px 1px 30px rgba(28, 158, 28, 0.973);
+  transform: translate3d(0, 0, -1em);
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.contactsHead {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 59.2728px;
+  line-height: 96px;
+  color: #191819;
+  padding-left: 153px;
+  margin-right: 140px;
+  text-align: center;
+}
+
+.contactsBanner {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.contactsWord {
+  background: url(../img/vector.svg);
+  padding: 35px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding: 79px;
+  box-sizing: border-box;
+}
+
+.phoneP {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.7014px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #191819;
+  padding-left: 30px;
+}
+
+.contactImg {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactDiv {
+  display: flex;
+}
+
+.phoneImg {
+  background-color: #8ac653;
+  border-radius: 10px;
+  border: 3px solid green;
+  box-shadow: 0 0 7px #664;
+  margin-bottom: 35px;
+}
+
+.mailP {
+  margin-top: 36px;
+}
+
+.pointP {
+  margin-top: 36px;
+}
+
+.contactsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.contactHead {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36.4139px;
+  line-height: 39px;
+  color: #2acc32;
+  margin-bottom: 100px;
+  margin-top: -80px;
+}
+
+.contactMap {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36.4139px;
+  line-height: 39px;
+  color: #2acc32;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+footer {
+  min-height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+footer .footerOneP {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.0427px;
+  line-height: 13px;
+  letter-spacing: -0.03em;
+  color: #191819;
+}
+footer .footerTwo {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footerTwoP {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.7014px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #191819;
+}
+footer .footerThree {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.7014px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #191819;
+}
+
+label #menuLine,
+label #closed {
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 932px) {
+  nav ul li,
+nav button {
+    display: none;
+  }
+  .header {
+    padding-bottom: 30px;
+  }
+  .menu {
+    display: block;
+    box-sizing: border-box;
+  }
+  .menu a:hover {
+    color: #eeeeee;
+  }
+  label #menuLine {
+    display: block;
+  }
+  #menuLine {
+    margin-top: 6px;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: #8ac653;
+    top: 200px;
+    left: -100%;
+    flex-direction: column;
+    margin-top: -80px;
+    transition: all 0.5s;
+    z-index: 1;
+  }
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+  }
+  .menu a {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  #check:checked ~ label #menuLine {
+    display: none;
+  }
+  #check:checked ~ label #closed {
+    margin-top: 5px;
+    display: block;
+  }
+  .contactDiv {
+    display: block;
+  }
+  .contactImg {
+    align-items: center;
+  }
+  .contactText {
+    text-align: center;
+  }
+  .contactsImg {
+    display: none;
+  }
+  .contactsHead {
+    position: static;
+    font-size: 15px;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .contactsBanner {
+    background-color: #f8f8f8;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .contactsWord {
+    padding: 30px;
+  }
+  .contactsInfo {
+    margin-top: 120px;
+  }
+  .pointP {
+    max-width: 230px;
+  }
+  .phoneP {
+    padding-left: 0;
+  }
+  .contactMap {
+    text-align: center;
+  }
+  .contactHead {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 90px;
+  }
+  footer .footerOneP {
+    padding-top: 11px;
+    padding-bottom: 50px;
+  }
+  footer .footerThree {
+    font-weight: 500;
+    font-size: 21.4338px;
+    line-height: 31px;
+    font-size: 12px;
+    padding-top: 22px;
+    letter-spacing: -0.03em;
+    color: #000000;
+  }
+  footer .footerTwoP {
+    font-weight: 500;
+    font-size: 21.4338px;
+    line-height: 31px;
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    max-width: 250px;
+  }
+}/*# sourceMappingURL=styleContacts.css.map */

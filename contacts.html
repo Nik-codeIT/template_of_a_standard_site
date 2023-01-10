@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="A description of the page" />
+    <meta name="keywords" content="ключевые фразы или слова через запятую" />
+    <link rel="stylesheet" href="./styles/styleContacts.css" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top">
+        <header class="header">
+          <div class="logo">
+            <p>
+              <a href="./index.html">
+                <img src="./img/logo.svg" alt="logo"
+              /></a>
+            </p>
+          </div>
+          <nav>
+            <input type="checkbox" id="check" />
+            <label for="check">
+              <img src="./img/line2.svg" alt="Menu" id="menuLine" />
+              <img src="./img/closed.svg" alt="Close" id="closed" />
+            </label>
+            <ul class="menu">
+              <li><a href="./index.html">Главная</a></li>
+              <li><a href="./about.html">О нас</a></li>
+              <li><a href="./products.html">Продукция</a></li>
+              <li><a href="./contacts.html">Контакты</a></li>
+              <button
+                class="button"
+                onclick="document.location='./contacts.html'"
+              >
+                Связаться с нами!
+              </button>
+            </ul>
+          </nav>
+        </header>
+        <main class="main container">
+          <div class="contactsBanner">
+            <h1 class="contactsHead">
+              <span class="contactsWord">Обратная связь</span>
+            </h1>
+          </div>
+          <div class="contactsInfo">
+            <h2 class="contactHead">Наши Контакты:</h2>
+            <div class="contactDiv">
+              <div class="contactImg">
+                <img
+                  class="phoneImg"
+                  title="Телефон"
+                  src="./img/phone.png"
+                  alt="Phone"
+                />
+
+                <img
+                  class="phoneImg"
+                  title="Наш Email"
+                  src="./img/mail.png"
+                  alt="Phone"
+                />
+
+                <img
+                  class="phoneImg"
+                  title="Наше местоположение"
+                  src="./img/location.png"
+                  alt="Phone"
+                />
+              </div>
+              <div class="contactText">
+                <p class="phoneP">
+                  <br />
+                  +80333113123
+                </p>
+                <p class="phoneP mailP">
+                  <br />
+                  agro@com.com
+                </p>
+                <p class="phoneP pointP">
+                  <br />
+                  Республика Мордовия, Саранск, проспект 50 лет Октября, 2
+                </p>
+              </div>
+            </div>
+            <h2 class="contactMap">Как нас найти:</h2>
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19943e1b601ebdad7c5fcd9ba01fbcc956145a912a6adb38295896f20cf0c6af&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footerOne">
+          <img src="./img/logoFooter.svg" alt="logo" />
+          <p class="footerOneP">&copy;2023foodingtradingltd</p>
+        </div>
+        <div class="footerTwo">
+          <p class="footerTwoP">
+            1, Awoniyi Elemo Street, Ajao Estate, off Murtala Muhammed Int.
+            Airport, Lagos State.
+          </p>
+          <br />
+          <p class="footerTwoP">09156218239, 08035024464</p>
+        </div>
+        <div class="footerThree"><p>info@foodingtrading.com</p></div>
+      </footer>
+    </div>
+  </body>
+</html>
